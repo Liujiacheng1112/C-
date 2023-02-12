@@ -1,3 +1,17 @@
+#include<cstdio>
+using namespace std;
+
+class Person{
+public:
+    int a;
+    Person(){
+        a = 12;
+    }
+    ~Person(){
+        a = 1;
+    }
+};
 int main(){
-    return 12;
+    Person p;
+    printf("%d",p.a);
 }
