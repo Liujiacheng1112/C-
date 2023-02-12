@@ -13,5 +13,4 @@ public:
 };
 int main(){
     Person p;
-    printf("%d",p.a);
 }
